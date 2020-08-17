@@ -253,3 +253,18 @@ p {
 }
 
 /*--------- ----------------- ----------*/
+
+/* ----------- HEADER ------------*/
+
+#firstname {
+
+    font-family: 'Helvetica Light', Helvetica, Arial, sans-serif;
+
+}
+
+#lastname {
+
+    font-family: 'Helvetica Ultra Light', Helvetica, Arial, sans-serif;
+}
+
+/*--------- ----------- ----------*/
