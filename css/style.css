@@ -266,6 +266,14 @@ img {
     
 }
 
+.minor-content-titles {
+
+    background-color: #404040;
+    text-align: center;
+    padding: 10px 0 10px 0;
+
+}
+
 /*--------- ----------------- ----------*/
 
 /* ----------- HEADER ------------*/
@@ -384,6 +392,7 @@ img {
 
     max-width: 20%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
     min-width: 20%;
+    background-color: #feca07;
 }
 
 #main-content {
