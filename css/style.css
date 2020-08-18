@@ -351,4 +351,19 @@ p {
 
 }
 
+#recommandations-row {
+
+    display: flex; /* Define that div as flex container to position its flex (childs) elements */
+    justify-content: space-between; /* Ensure that there will always be a space between the flex elements */
+
+}
+.recommandations-first-text {
+
+    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less that the half of container width to be able to see the space between flex elements */
+}
+
+.recommandations-second-text {
+
+    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less that the half of container width to be able to see the space between flex elements */
+}
 /*--------- ----------- ----------*/
