@@ -241,7 +241,7 @@ img {
 /*--------- MAIN CONTENT ----------*/
 
 #container {
-    max-width: 75%;
+    max-width: 65%;
     margin: 0 auto;
     border: 1px solid #CCCCCC;
     display: flex;
