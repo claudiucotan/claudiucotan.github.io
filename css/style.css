@@ -361,23 +361,23 @@ p {
 }
 .recommandations-first-text {
 
-    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less that the half of container width to be able to see the space between flex elements */
+    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
 }
 
 .recommandations-second-text {
 
-    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less that the half of container width to be able to see the space between flex elements */
+    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
 }
 
 #minor-content {
 
-    max-width: 20%;
+    max-width: 20%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
 
 }
 
 #main-content {
 
-    max-width: 75%;
+    max-width: 75%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
 
 }
 
