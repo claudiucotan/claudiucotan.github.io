@@ -235,7 +235,7 @@ p {
     margin: 0 auto;
     border: 1px solid #CCCCCC;
     display: flex;
-    
+    justify-content: space-between;
 }
 
 
@@ -368,4 +368,18 @@ p {
 
     max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less that the half of container width to be able to see the space between flex elements */
 }
+
+#minor-content {
+
+    max-width: 20%;
+
+}
+
+#main-content {
+
+    max-width: 75%;
+
+}
+
+
 /*--------- ----------- ----------*/
