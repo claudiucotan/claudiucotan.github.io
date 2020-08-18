@@ -226,6 +226,16 @@ h1, h2, h3, h4, h5, h6{
 p {
     margin-top: 0;
 }
+
+figure {
+
+    margin:0; 
+    padding:0;
+}
+
+img {
+    max-width: 100%; /* Ensure that all the img cannot use more space than available space on its container  */
+}
 /*--------- ------------ ----------*/
 
 /*--------- MAIN CONTENT ----------*/
