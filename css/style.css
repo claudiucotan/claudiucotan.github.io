@@ -266,13 +266,14 @@ p {
 
 #firstname {
 
-    font-family: 'Helvetica Light', Helvetica, Arial, sans-serif;
-
+    font-family: 'Helvetica Thin', Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
 }
 
 #lastname {
 
     font-family: 'Helvetica Ultra Light', Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
 }
 
 /*--------- ----------- ----------*/
