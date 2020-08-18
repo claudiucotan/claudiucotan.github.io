@@ -288,4 +288,35 @@ p {
 
 }
 
+#trainings-first-row {
+
+    display: flex; /* Define that div as flex container to position its flex (childs) elements */
+    
+
+}
+#trainings-second-row {
+
+    display: flex; /* Define that div as flex container to position its flex (childs) elements */
+    
+
+}
+
+.trainings-date {
+   
+    flex: 20%; /* Define the min/max width (flex grow/shrink) of that flex element */
+    display: flex; /* Make this flex element a flex container itself to position its flex (childs) elements */
+    flex-direction: column; /* Make the city appear "under" the date */
+    
+
+}
+
+.trainings-text {
+
+
+    flex:80%; /* Define the min/max width (flex grow/shrink) of that flex element */
+    
+    
+
+}
+
 /*--------- ----------- ----------*/
