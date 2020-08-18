@@ -229,7 +229,7 @@ p {
 
 figure {
 
-    margin:0; 
+    margin:0;
     padding:0;
 }
 
@@ -246,6 +246,7 @@ img {
     border: 1px solid #CCCCCC;
     display: flex;
     justify-content: space-between;
+    
 }
 
 
@@ -382,7 +383,7 @@ img {
 #minor-content {
 
     max-width: 20%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
-
+    min-width: 20%;
 }
 
 #main-content {
@@ -391,5 +392,19 @@ img {
 
 }
 
+#picture-location {
+
+    padding:20%;
+   
+}
+
+#picture {
+
+    border: 4px solid #daaf12;
+    border-radius: 50%;
+   
+}
+
 
 /*--------- ----------- ----------*/
+
