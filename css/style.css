@@ -216,6 +216,7 @@ html {
 
     font-family: 'Helvetica Roman', Helvetica, Arial, sans-serif;
     font-size: 100%; /* Preventive setting for future use of EM / REM font-size */
+    
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -266,6 +267,16 @@ img {
     
 }
 
+.circle-border {
+
+    display:inline-block;
+    height: 3rem;
+    width: 3rem;
+    padding:8px;
+    border:1px solid black;
+    border-radius:50%;
+}
+
 .minor-content-titles {
 
     background-color: #404040;
@@ -273,6 +284,8 @@ img {
     padding: 10px 0 10px 0;
 
 }
+
+
 
 /*--------- ----------------- ----------*/
 
@@ -402,6 +415,7 @@ img {
 
 }
 
+
 #main-content {
 
     width: 70%;
@@ -426,3 +440,29 @@ img {
 
 /*--------- ----------- ----------*/
 
+/* ----------- FONT AWESOME ------------*/
+
+/* Changing the colors of icons*/
+
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt, .fa-circle, .fa-dot-circle {
+
+    color:#feca07;
+    
+    
+
+}
+
+/* Resizing precizely the icons */
+
+.icon-resize { 
+    
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+
+/*--------- ----------------- ----------*/
