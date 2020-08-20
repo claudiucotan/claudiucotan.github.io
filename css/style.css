@@ -297,6 +297,12 @@ img {
 
 }
 
+.add-top-margin-10 {
+
+    margin-top:10%;
+}
+
+
 /*--------- ----------------- ----------*/
 
 /* ----------- HEADER ------------*/
@@ -416,6 +422,7 @@ img {
     
     width: 25%;
     background-color: #29B6F6;
+    
 }
 
 .minor-content-titles {
@@ -443,7 +450,7 @@ img {
 #picture-location {
 
     padding:20%;
-   
+    
 }
 
 #picture {
@@ -482,5 +489,76 @@ img {
 
 
 
+
+/*--------- ----------------- ----------*/
+
+
+
+
+/* ----------- RESPONSIVENESS ------------*/
+
+#picture-location-responsive { /* Hide the picture by default for on this location */
+
+    display: none;
+    background-color: #29B6F6;
+    
+   
+}
+
+@media all and (max-width:1210px) { /* If the device-width is less than 1210px */
+
+    #container { 
+
+        flex-direction: column; /* show the container child elements in columns instead of rows */
+        max-width: 80%; /* The container takes all the available wide space herited from container instead of 70% */
+        
+    }
+
+    #main-header {
+
+        margin-top: 0; /* Remove the top margin of the main header */
+
+    }
+
+    #main-content {
+        width:100%; /* The main content takes all the available wide space herited from container instead of 70% */
+        box-sizing: border-box; /* padding is included inside the width and height of this element */
+        padding: 0 5%; 
+    }
+
+    #minor-content {
+
+        display:none; /* Hide the minor content that is placed on the left */
+        max-width: 0;
+        
+    }
+
+    
+
+    #picture-location-responsive {
+
+        display: block; /* display the hidden picture */
+        text-align: center; /* Center the content (picture) */
+        padding: 10% 0 10% 0;
+       
+    }
+
+    #picture-location-responsive #picture {
+
+
+        max-width: 30%; /* Ensure that the picture will look nice even if the size of the screen changes */
+        
+       
+    }
+    
+    .center-content {
+
+        text-align: center;
+    }
+    
+   
+
+
+}
 
 /*--------- ----------------- ----------*/
