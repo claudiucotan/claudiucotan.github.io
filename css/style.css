@@ -263,7 +263,7 @@ img {
 
 .styled-border {
 
-    border-bottom: 1px solid #29B6F6;
+    border-bottom: 2px solid #29B6F6;
     
 }
 
@@ -277,13 +277,7 @@ img {
     border-radius:50%;
 }
 
-.minor-content-titles {
 
-    background-color: #404040;
-    text-align: center;
-    padding: 10px 0 10px 0;
-
-}
 
 .remove-bottom-margin {
 
@@ -417,6 +411,14 @@ img {
     
     width: 25%;
     background-color: #29B6F6;
+}
+
+.minor-content-titles {
+
+    background-color: #404040;
+    text-align: center;
+    padding: 10px 0 10px 0;
+
 }
 
 .minor-content-placing {
