@@ -285,6 +285,17 @@ img {
 
 }
 
+.remove-bottom-margin {
+
+    margin-bottom: 0;
+
+}
+
+.add-left-margin {
+
+    margin-left:12%;
+
+}
 
 
 /*--------- ----------------- ----------*/
