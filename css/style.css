@@ -532,7 +532,7 @@ img {
 
         width:100%; /* The main content takes all the available wide space herited from container instead of 384px */
         box-sizing: border-box; /* padding is included inside the width and height of this element */
-        padding: 0 5%; 
+        padding: 0; 
         
         
     }
