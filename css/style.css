@@ -527,21 +527,6 @@ img {
 
     
 
-    #picture-location-responsive {
-
-        display: block; /* display the hidden picture */
-        text-align: center; /* Center the content (picture) */
-        padding: 10% 0 10% 0;
-       
-    }
-
-    #picture-location-responsive #picture {
-
-
-        max-width: 30%; /* Ensure that the picture will look nice even if the size of the screen changes */
-        
-       
-    }
     
     .center-content {
 
