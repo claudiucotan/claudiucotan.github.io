@@ -406,16 +406,17 @@ img {
 
     display: flex; /* Define that div as flex container to position its flex (childs) elements */
     justify-content: space-between; /* Ensure that there will always be a space between the flex elements */
+    
 
 }
 .recommandations-first-text {
 
-    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
+    width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
 }
 
 .recommandations-second-text {
 
-    max-width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
+    width: 45%; /* Ensure that the maximum width of the flex (child) element will always be less than the half of container width to be able to see the space between flex elements */
 }
 
 #minor-content {
@@ -542,6 +543,22 @@ img {
         text-align: center; /* Center the name and description while the screen is resized. */
     }
 
+    #recommandations-row {
+
+        flex-direction: column;
+    }
+
+    .recommandations-first-text {
+
+        width: 100%;
+    }
+
+    .recommandations-second-text {
+
+        width: 100%;
+
+    }
+    
 
 }
 
