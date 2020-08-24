@@ -242,7 +242,7 @@ img {
 /*--------- MAIN CONTENT ----------*/
 
 #container {
-    max-width: 1190px;
+    width: 1190px;
     margin: 0 auto;
     border: 2px solid #cfcfcf;
     display: flex;
