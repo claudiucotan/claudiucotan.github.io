@@ -497,14 +497,6 @@ img {
 
 /* ----------- RESPONSIVENESS ------------*/
 
-#picture-location-responsive { /* Hide the picture by default for on this location */
-
-    display: none;
-    background-color: #29B6F6;
-    
-   
-}
-
 @media all and (max-width:1210px) { /* If the device-width is less than 1210px */
 
     #container { 
