@@ -537,7 +537,15 @@ img {
         
     }
 
-    
+    .minor-content-placing {
+        padding: 10%;
+    }
+
+    .minor-content-placing-hobbies {
+
+        padding: 10%;
+    }
+
     .center-content {
 
         text-align: center; /* Center the name and description while the screen is resized. */
