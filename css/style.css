@@ -242,7 +242,7 @@ img {
 /*--------- MAIN CONTENT ----------*/
 
 #container {
-    max-width: 65%;
+    max-width: 1190px;
     margin: 0 auto;
     border: 2px solid #cfcfcf;
     display: flex;
@@ -420,7 +420,7 @@ img {
 #minor-content {
 
     
-    width: 25%;
+    width: 383px;
     background-color: #29B6F6;
     
 }
@@ -443,7 +443,7 @@ img {
 
 #main-content {
 
-    width: 70%;
+    width: 696px;
 
 }
 
