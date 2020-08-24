@@ -436,7 +436,7 @@ img {
 .minor-content-placing {
 
     padding:15%;
-    
+    word-wrap: break-word;
 
 }
 
