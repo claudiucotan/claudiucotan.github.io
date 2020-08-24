@@ -420,7 +420,8 @@ img {
 #minor-content {
 
     
-    width: 383px;
+    width: 384px;
+    box-sizing: border-box; /* Make the border and shadow be part of the whole width of this element */
     background-color: #29B6F6;
     
 }
