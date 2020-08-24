@@ -498,7 +498,7 @@ img {
 
 /* ----------- RESPONSIVENESS ------------*/
 
-@media all and (max-width:1210px) { /* If the device-width is less than 1210px */
+@media all and (max-width:1024px) { /* Tablet breakboint: if the device-width is less than 1024px */
 
     #container { 
 
@@ -514,29 +514,31 @@ img {
     }
 
     #main-content {
-        width:100%; /* The main content takes all the available wide space herited from container instead of 70% */
+        width:100%; /* The main content takes all the available wide space herited from container instead of 696px */
         box-sizing: border-box; /* padding is included inside the width and height of this element */
         padding: 0 5%; 
     }
 
     #minor-content {
 
-        
+        width:100%; /* The main content takes all the available wide space herited from container instead of 384px */
+        box-sizing: border-box; /* padding is included inside the width and height of this element */
+        padding: 0 5%; 
         
         
     }
-
-    
 
     
     .center-content {
 
         text-align: center; /* Center the name and description while the screen is resized. */
     }
-    
-   
 
 
 }
 
+@media all and (max-width:768px) { /* Smartphone breakboint: if the device-width is less than 768px */
+
+
+}
 /*--------- ----------------- ----------*/
