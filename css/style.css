@@ -247,6 +247,7 @@ img {
     border: 2px solid #cfcfcf;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -502,8 +503,8 @@ img {
 
     #container { 
 
-        flex-direction: column; /* show the container child elements in columns instead of rows */
-        max-width: 80%; /* The container takes all the available wide space herited from container instead of 70% */
+       
+        width: 80%; /* The container takes 80% of the wide space herited from body instead of 1190px */
         
     }
 
@@ -539,6 +540,11 @@ img {
 
 @media all and (max-width:768px) { /* Smartphone breakboint: if the device-width is less than 768px */
 
+    #container { 
+
+        width: 100%; /* The container takes all the available wide space herited from container instead of 1190px */
+        
+    }
 
 }
 /*--------- ----------------- ----------*/
