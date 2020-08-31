@@ -507,6 +507,72 @@ img {
 
 /* ----------- RESPONSIVENESS ------------*/
 
+
+@media all and (max-width:1210px) { /* Middle screen breakboint: if the device-width is less than 1024px */
+
+    #container { 
+
+       
+        width: 95%; /* The container takes 80% of the wide space herited from body instead of 1190px */
+        
+    }
+
+    #main-header {
+
+        margin-top: 0; /* Remove the top margin of the main header */
+
+    }
+
+    #main-content {
+        width:100%; /* The main content takes all the available wide space herited from container instead of 696px */
+        box-sizing: border-box; /* padding is included inside the width and height of this element */
+        padding: 0 5%; 
+    }
+
+    #minor-content {
+
+        width:100%; /* The main content takes all the available wide space herited from container instead of 384px */
+        box-sizing: border-box; /* padding is included inside the width and height of this element */
+        padding: 0; 
+        
+        
+    }
+
+    .minor-content-placing {
+        padding: 10%;
+    }
+
+    .minor-content-placing-hobbies {
+
+        padding: 10%;
+    }
+
+    .center-content {
+
+        text-align: center; /* Center the name and description while the screen is resized. */
+    }
+
+    #recommandations-row {
+
+        flex-direction: column;
+    }
+
+    .recommandations-first-text {
+
+        width: 100%;
+    }
+
+    .recommandations-second-text {
+
+        width: 100%;
+
+    }
+    
+
+}
+
+
+
 @media all and (max-width:1024px) { /* Tablet breakboint: if the device-width is less than 1024px */
 
     #container { 
