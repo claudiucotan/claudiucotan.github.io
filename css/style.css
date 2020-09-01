@@ -351,12 +351,7 @@ img {
     
 
 }
-#trainings-third-row {
 
-    display: flex; /* Define that div as flex container to position its flex (childs) elements */
-    
-
-}
 
 .trainings-date {
    
@@ -389,7 +384,12 @@ img {
     
 
 }
+#experiences-third-row {
 
+    display: flex; /* Define that div as flex container to position its flex (childs) elements */
+    
+
+}
 .experiences-date {
    
     flex: 20%; /* Define the min/max width (flex grow/shrink) of that flex element */
