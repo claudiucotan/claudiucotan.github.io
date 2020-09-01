@@ -351,6 +351,12 @@ img {
     
 
 }
+#trainings-third-row {
+
+    display: flex; /* Define that div as flex container to position its flex (childs) elements */
+    
+
+}
 
 .trainings-date {
    
