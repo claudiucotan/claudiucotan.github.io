@@ -214,7 +214,7 @@
 
 html {
 
-    font-family: 'Helvetica Roman', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
     font-size: 100%; /* Preventive setting for future use of EM / REM font-size */
     
 }
