@@ -466,8 +466,11 @@ img {
 
 #picture-location {
 
-    padding:20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     text-align: center;
+    margin: auto;
+    width: 250px;
     
 }
 
