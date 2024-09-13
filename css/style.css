@@ -1,7 +1,7 @@
 /* IMPORTING FONTS */
 
 @font-face {
-    font-family: 'Helvetica Thin Italic';
+    font-family: 'Helvetica Italic';
     src: url('../fonts/HelveticaNeue-ThinItalic.eot');
     src: url('../fonts/HelveticaNeue-ThinItalic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/HelveticaNeue-ThinItalic.woff2') format('woff2'),
@@ -196,7 +196,7 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Thin';
+    font-family: 'Helvetica';
     src: url('../fonts/HelveticaNeue-Thin.eot');
     src: url('../fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
         url('../fonts/HelveticaNeue-Thin.woff2') format('woff2'),
@@ -317,7 +317,7 @@ img {
 
 #firstname {
 
-    font-family: 'Helvetica Thin', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
     font-size: 2.4rem;
 }
 
